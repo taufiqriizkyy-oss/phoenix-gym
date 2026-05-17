@@ -55,7 +55,7 @@ const RegistrationCTA = () => {
 
             {/* WhatsApp Inquiry Button */}
             <motion.a
-              href="https://wa.me/6285943776945"
+              href="https://wa.me/6285711194565"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

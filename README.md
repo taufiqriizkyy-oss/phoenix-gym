@@ -199,9 +199,9 @@ The application form redirects to WhatsApp with a pre-filled message. To change 
 1. Open `components/ApplicationForm.js`
 2. Find the WhatsApp URL:
    ```javascript
-   const whatsappUrl = `https://wa.me/6285943776945?text=${encodeURIComponent(message)}`;
+   const whatsappUrl = `https://wa.me/6285711194565?text=${encodeURIComponent(message)}`;
    ```
-3. Replace `6285943776945` with your WhatsApp number (include country code, no + or spaces)
+3. Replace `6285711194565` with your WhatsApp number (include country code, no + or spaces)
 
 ## 🛠️ Tech Stack
 

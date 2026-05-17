@@ -50,8 +50,8 @@ export default function ContactPage() {
                   </svg>
                 ),
                 title: 'WhatsApp',
-                detail: '+62 859-4377-6945',
-                link: 'https://wa.me/6285943776945',
+                detail: '+62 857-1119-4565',
+                link: 'https://wa.me/6285711194565',
                 color: 'from-green-400 to-green-500'
               },
               {
@@ -73,7 +73,7 @@ export default function ContactPage() {
                   </svg>
                 ),
                 title: 'Location',
-                detail: 'Jakarta, Indonesia',
+                detail: 'Depok, Indonesia',
                 link: '#',
                 color: 'from-blue-400 to-blue-500'
               }
@@ -176,7 +176,7 @@ export default function ContactPage() {
             We'd love to meet you and your child. Reach out via WhatsApp or fill out the application form above.
           </p>
           <motion.a
-            href="https://wa.me/6285943776945"
+            href="https://wa.me/6285711194565"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

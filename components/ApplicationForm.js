@@ -29,7 +29,7 @@ const ApplicationForm = () => {
 
 I'm interested in starting a trial class at Phoenix Gymnastics Academy.`;
 
-    const whatsappUrl = `https://wa.me/6285943776945?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/6285711194565?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
