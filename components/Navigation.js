@@ -35,21 +35,21 @@ const Navigation = () => {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-black/95 backdrop-blur-xl border-b border-phoenix-500/20 shadow-glow py-2' 
-          : 'bg-transparent py-3'
+          ? 'bg-black/95 backdrop-blur-xl border-b border-phoenix-500/20 shadow-glow py-4' 
+          : 'bg-transparent py-5'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo - BIGGER */}
         <Link href="/" className="flex items-center group">
-          <img 
-            src="/images/logo.png" 
-            alt="Phoenix Gymnastics Academy"
-            className={`transition-all duration-300 group-hover:drop-shadow-glow ${
-              isScrolled ? 'h-14' : 'h-16'
-            }`}
-          />
-        </Link>
+  <img 
+    src="/images/logo.png" 
+    alt="Phoenix Gymnastics Academy"
+    className={`w-auto object-contain transition-all duration-300 group-hover:drop-shadow-glow ${
+      isScrolled ? 'h-20 md:h-24' : 'h-24 md:h-28'
+    }`}
+  />
+</Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
