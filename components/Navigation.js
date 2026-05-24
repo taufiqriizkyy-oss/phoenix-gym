@@ -42,13 +42,13 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo - BIGGER */}
         <Link href="/" className="flex items-center group">
-  <img 
-    src="/images/logo.png" 
-    alt="Phoenix Gymnastics Academy"
-    className={`w-auto object-contain transition-all duration-300 group-hover:drop-shadow-glow ${
-      isScrolled ? 'h-20 md:h-24' : 'h-24 md:h-28'
-    }`}
-  />
+<img 
+  src="/images/logo.png" 
+  alt="Phoenix Gymnastics Academy"
+  className={`w-auto object-contain transition-all duration-300 group-hover:drop-shadow-glow ${
+    isScrolled ? 'h-28 md:h-32' : 'h-36 md:h-40'
+  }`}
+/>
 </Link>
 
         {/* Desktop Navigation */}

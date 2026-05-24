@@ -34,7 +34,7 @@ const RifdaFeature = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-phoenix-500/20 to-phoenix-600/20 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500 blur-xl" />
             <div className="relative">
               <img 
-                src="/images/rifda-olympic.png" 
+                src="/images/rifda-olympic.JPG" 
                 alt="Rifda - Olympic Athlete"
                 className="w-full rounded-2xl shadow-2xl border-2 border-phoenix-500/20"
               />
