@@ -5,8 +5,11 @@ import '../styles/globals.css';
 
 export const metadata = {
   title: 'Phoenix Gymnastics Academy | Olympic-Inspired Movement Training',
-  description: 'Premium gymnastics academy in Jakarta featuring Olympic athlete Rifda Irfanaluthfi. Olympic-level methodology for children with structured progression and character development.',
-  keywords: 'gymnastics Jakarta, Olympic gymnastics, kids gymnastics, Rifda Irfanaluthfi, premium gymnastics academy, child development',
+  description: 'Premium gymnastics academy...',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
