@@ -26,20 +26,20 @@ const RifdaFeature = () => {
   ];
 
   return (
-    <section className="py-32 relative overflow-hidden bg-gradient-to-b from-white via-phoenix-pink-50/30 to-white">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+    <section className="py-24 relative overflow-hidden bg-gradient-to-b from-black via-phoenix-dark-900 to-black">
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Image Column */}
         <motion.div {...fadeInLeft}>
           <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-br from-phoenix-pink-200/20 to-phoenix-pink-400/20 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-br from-phoenix-500/20 to-phoenix-600/20 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-500 blur-xl" />
             <div className="relative">
               <img 
-                src="/images/rifda-olympic.JPG" 
+                src="/images/rifda-olympic.png" 
                 alt="Rifda - Olympic Athlete"
-                className="w-full rounded-2xl shadow-2xl"
+                className="w-full rounded-2xl shadow-2xl border-2 border-phoenix-500/20"
               />
-              <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-phoenix-pink-400 to-phoenix-pink-500 text-white px-8 py-4 rounded-xl shadow-lg">
-                <span className="font-display text-2xl">Olympian Athlete</span>
+              <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-phoenix-500 to-phoenix-600 text-white px-8 py-4 rounded-xl shadow-glow">
+                <span className="font-heading text-2xl font-bold">Olympian Athlete</span>
               </div>
             </div>
           </div>
@@ -52,19 +52,19 @@ const RifdaFeature = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="inline-block mb-4"
+            className="inline-block mb-4 px-6 py-2 rounded-lg bg-phoenix-500/10 border border-phoenix-500/20"
           >
-            <span className="text-phoenix-pink-500 text-sm font-semibold uppercase tracking-wider">
+            <span className="text-phoenix-500 text-sm font-display font-bold uppercase tracking-wider">
               Olympic-Level Inspiration
             </span>
           </motion.div>
 
-          <h2 className="font-display text-4xl md:text-6xl mb-6 leading-tight text-gray-900">
+          <h2 className="font-heading text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
             Built with Experience from the{' '}
-            <span className="text-phoenix-pink-500 italic">Highest Level</span>
+            <span className="text-gradient-phoenix italic">Highest Level</span>
           </h2>
 
-          <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+          <p className="text-gray-400 text-lg mb-8 leading-relaxed">
             Our academy's methodology is shaped by world-class experience. Rifda brings Olympic-level understanding to every aspect of our training system, ensuring that Phoenix students benefit from insights gained at the pinnacle of gymnastics competition.
           </p>
 
@@ -77,13 +77,13 @@ const RifdaFeature = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="group bg-white border-2 border-phoenix-pink-100 p-5 rounded-xl hover:border-phoenix-pink-300 hover:shadow-lg transition-all duration-300"
+                className="group card-glow p-5 rounded-xl hover:border-phoenix-500/40 transition-all duration-300"
               >
                 <div className="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300">
                   {stat.icon}
                 </div>
-                <div className="font-display text-xl text-gray-900 mb-1">{stat.title}</div>
-                <div className="text-gray-500 text-sm">{stat.desc}</div>
+                <div className="font-display text-xl text-white mb-1 font-bold">{stat.title}</div>
+                <div className="text-gray-400 text-sm">{stat.desc}</div>
               </motion.div>
             ))}
           </div>
@@ -93,9 +93,9 @@ const RifdaFeature = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="border-l-4 border-phoenix-pink-400 pl-6 py-2"
+            className="border-l-4 border-phoenix-500 pl-6 py-2 bg-phoenix-500/5 rounded-r-lg"
           >
-            <p className="text-gray-600 italic leading-relaxed">
+            <p className="text-gray-400 italic leading-relaxed">
               "The first Indonesian gymnast to qualify for the Olympics, helping shape a modern gymnastics culture for the next generation."
             </p>
           </motion.div>
